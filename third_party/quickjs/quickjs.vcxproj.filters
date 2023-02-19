@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\win">
+      <UniqueIdentifier>{4da72b57-d832-49e3-ac77-b6febfa49bd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cutils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libbf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libregexp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libunicode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quickjs.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quickjs-libc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="qjs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cutils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libbf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libregexp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libregexp-opcode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libunicode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libunicode-table.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\list.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quickjs-atom.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quickjs-jsx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quickjs-opcode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\dirent.h">
+      <Filter>src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\getopt.h">
+      <Filter>src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quickjs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quickjs-libc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quickjs-version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="qjs.h" />
+    <ClInclude Include="ref_class.h" />
+    <ClInclude Include="ref_counted.h" />
+    <ClInclude Include="ref_ptr.h" />
+    <ClInclude Include="weak_class.h" />
+    <ClInclude Include="weak_ptr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qjs.inl" />
+  </ItemGroup>
+</Project>
