@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <VListBox class="editor_menu" name="listMenu" maxheight="200"/>
+</Window>

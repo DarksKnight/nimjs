@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="300,500" mininfo="300,500" maxinfo="300,500" caption="0,0,0,35">
+  <Box>
+    <VBox bkcolor="editor_white">
+      <EditorProperty name="editor_property"/>
+    </VBox>
+  </Box>
+</Window>

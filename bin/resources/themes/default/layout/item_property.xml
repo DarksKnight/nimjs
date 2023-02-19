@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <ListContainerElement height="30" bordersize="1" bordercolor="editor_bk_wnd_darkcolor">
+    <HBox>
+      <Label name="lb_desc" width="100" height="auto" valign="center" margin="10,0,0,0"/>
+      <Control width="1" bkcolor="editor_bk_wnd_darkcolor"/>
+      <Box name="box_value" height="24" valign="center" padding="5,0,10,0"/>
+    </HBox>
+  </ListContainerElement>
+</Window>

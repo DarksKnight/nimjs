@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <ListContainerElement height="30" bordersize="1" bordercolor="editor_bk_wnd_darkcolor">
+    <HBox>
+      <Label name="lb_desc" width="100" height="auto" valign="center" margin="10,0,0,0"/>
+      <Control width="1" bkcolor="editor_bk_wnd_darkcolor"/>
+      <TabBox name="tb_input" height="24" valign="center" padding="5,0,10,0">
+        <RichEdit name="re_value" multiline="false" wantreturnmsg="true" height="auto" valign="center"/>
+        <Label class="editor_combo" name="combo_value" bkcolor="editor_white" width="stretch" align="vcenter"/>
+        <HBox>
+          <Label name="lb_path" width="stretch" height="auto" valign="center"/>
+          <Button name="btn_file" text="..." width="20" height="20" halign="right" bkcolor="editor_white" bordersize="1" bordercolor="editor_dark_gray"/>
+        </HBox>
+        <HBox>
+          <Control name="ctrl_preview" width="20" height="20" bordersize="1" bordercolor="editor_dark_gray" margin="0,0,5,0" valign="center"/>
+          <Button name="btn_choose" textid="STRID_CHOOSE" bkcolor="editor_white" bordersize="1" bordercolor="editor_dark_gray" width="80" height="20" valign="center"/>
+        </HBox>
+      </TabBox>
+    </HBox>
+  </ListContainerElement>
+</Window>

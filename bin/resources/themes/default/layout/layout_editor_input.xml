@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="300,150" mininfo="300,120" maxinfo="300,100" caption="0,0,0,35">
+  <Box>
+    <VBox bkcolor="editor_white">
+      <HBox width="stretch" height="35" bkcolor="editor_bk_wnd_lightcolor">
+        <Control width="25" height="25" margin="5,0,5,0" valign="center" bkimage="drawable/logo/icon_logo.png"/>
+        <Label textid="STRID_EDITOR_INPUT_TITLE" font="editor_system_14" valign="center"/>
+        <Control />
+        <Button class="editor_btn_wnd_close" name="closebtn" margin="4,6,8,0"/>
+      </HBox>
+      <VBox height="80">
+        <HBox width="auto" height="auto" valign="center" halign="center" margin="0,0,0,5">
+          <Label textid="STRID_EDITOR_INPUT_TITLE_TIP" width="auto" height="auto" valign="center"/>
+          <RichEdit class="editor_input" name="re_input_name" width="200" height="30" align="vcenter" padding="5,0,5,0" multiline="false" autohscroll="true"/>
+        </HBox>
+        <HBox width="auto" height="auto" valign="center" halign="center">
+          <Label textid="STRID_EDITOR_INPUT_CONTENT_TIP" width="auto" height="auto" valign="center"/>
+          <RichEdit class="editor_input" name="re_input_content" width="200" height="30" align="vcenter" padding="5,0,5,0" multiline="false" autohscroll="true"/>
+        </HBox>
+      </VBox>
+      <Box>
+        <HBox width="auto" height="auto" halign="center">
+          <Button class="editor_popover_btn_ok" name="btn_ok" margin="0,0,20,0" textid="STRING_OK" />
+          <Button class="editor_popover_btn_cancel" name="btn_cancel" textid="STRING_CANCEL" />
+        </HBox>
+      </Box>
+    </VBox>
+  </Box>
+</Window>

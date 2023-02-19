@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="500,500" mininfo="500,500" maxinfo="500,500" caption="0,0,0,35">
+  <Box>
+    <VBox bkcolor="white">
+      <HBox width="stretch" height="35" bkcolor="editor_bk_wnd_lightcolor">
+        <Control width="25" height="25" margin="5,0,5,0" valign="center" bkimage="drawable/logo/icon_logo.png"/>
+        <Label textid="STRID_EDITOR_CREATE_TITLE" font="editor_system_14" valign="center"/>
+        <Control />
+        <Button class="editor_btn_wnd_close" name="closebtn" margin="4,6,8,0"/>
+      </HBox>
+      <VBox bkcolor="bk_editor_create">
+        <HBox height="400">
+          <VListBox name="list_create_type" width="180" bordercolor="editor_dark_gray" bordersize="1" margin="5,5,5,5" bkcolor="editor_white" />
+          <Box name="box_preview" padding="1,1,1,1" margin="0,5,5,5" bordercolor="editor_dark_gray" bordersize="1" mousechild="false"/>
+        </HBox>
+        <Control height="1" bkcolor="editor_dark_gray" margin="5,10,5,0"/>
+        <Box bkcolor="editor_white">
+          <HBox width="auto" height="auto" halign="right" valign="center" margin="0,0,10,0">
+            <Button class="editor_btn_global_blue_80x30" name="btn_new_file" textid="STRING_OK"/>
+            <Button class="editor_btn_global_white_80x30" name="btn_cancel" textid="STRING_CANCEL" margin="5,0,0,0"/>
+          </HBox>
+        </Box>
+      </VBox>
+    </VBox>
+  </Box>
+</Window>

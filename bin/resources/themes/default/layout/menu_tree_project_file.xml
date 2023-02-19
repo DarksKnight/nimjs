@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <VListBox class="editor_menu" width="auto">
+    <MenuElement class="editor_menu_element" name="menu_open_file" height="25" mousechild="false">
+      <Label class="editor_menu_text" textid="STRID_MENU_TREE_PROJECT_FILE_OPEN"/>
+    </MenuElement>
+    <MenuElement class="editor_menu_element" name="menu_open_dir" width="auto" height="25" mousechild="false">
+      <Label class="editor_menu_text" textid="STRID_MENU_TREE_PROJECT_FILE_OPEN_DIR"/>
+    </MenuElement>
+    <MenuElement class="editor_menu_element" name="menu_del" height="25" mousechild="false">
+      <Label class="editor_menu_text" textid="STRID_MENU_TREE_PROJECT_FILE_DEL"/>
+    </MenuElement>
+  </VListBox>
+</Window>

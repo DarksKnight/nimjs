@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <VListBox class="editor_menu">
+    <MenuElement class="editor_menu_element" name="menu_save_file" width="100" height="25">
+      <Button width="20" height="20" valign="center" mouse="false"/>
+      <Label class="editor_menu_text" textid="STRID_MENU_SAVE_FILE" margin="30,0,0,0"/>
+    </MenuElement>
+    <MenuElement class="editor_menu_element" name="menu_settings" width="100" height="25">
+      <Button width="20" height="20" valign="center" mouse="false"/>
+      <Label class="editor_menu_text" textid="STRID_MENU_SETTINGS" margin="30,0,0,0"/>
+    </MenuElement>
+  </VListBox>
+</Window>
